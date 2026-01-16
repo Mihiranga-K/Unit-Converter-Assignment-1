@@ -21,7 +21,15 @@
                 <button class="tab-btn" onclick="switchCategory('weight')">Weight</button>
                 <button class="tab-btn" onclick="switchCategory('temp')">Temp</button>
                 <button class="tab-btn" onclick="switchCategory('currency')">Currency</button>
+                <button class="tab-btn" onclick="showLiveRates()">Live Rates</button>
             </div>
+<div id="liveRatesSection" class="history-card" style="display: none;">
+    <h3><span class="icon">📊</span> Live Currency Rates (Base: USD)</h3>
+    <div id="ratesDisplay" class="rates-grid">
+        <p>Loading rates...</p>
+    </div>
+</div>
+            
 
             <div class="conversion-grid">
                 <div class="input-box">

@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #0f172a;
+    background: #0631a7;
     color: #f8fafc;
     min-height: 100vh;
     display: flex;
@@ -83,11 +83,20 @@ header p {
 }
 
 .tab-btn.active {
-    background: #1e293b;
+    background: #08b544;
     color: #60a5fa;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
 }
 
+.rates-grid {
+    display: grid;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.history-item b {
+    color: var(--accent-purple);
+}
 .conversion-grid {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
