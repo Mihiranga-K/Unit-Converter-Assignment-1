@@ -39,21 +39,21 @@ We implemented the Gitflow branching strategy as required:
 Individual Contributions
 
  Tharindu Dilshan (ITBNM-2313-0018)
-*Role: Frontend Developer (HTML)
+Role: Frontend Developer (HTML)
 * Set up the initial repository structure and `index.html`.
 * Developed the semantic HTML5 layout for the dashboard.
 * Implemented accessible form inputs and navigation tabs structure.
 *Commits: Created the skeleton of the application and managed merging of structural updates.
 
  Nipun Mihiranga (ITBNM-2313-0040)
-*Role: Frontend Developer (CSS)
+Role: Frontend Developer (CSS)
 * Role: Designed the "OmniConvert Pro" UI theme (Blue gradient background, Glassmorphism card effect).
 * Styled the input fields, dropdowns, and navigation buttons.
 * Implemented responsive CSS to ensure the app works on mobile screens.
 *Commits: Added `styles.css`, configured fonts, and polished the visual interface.
 
 Udesh Chanuka (ITBNM-2313-0011)
-*Role: Backend/Logic Developer (JavaScript)
+Role: Backend/Logic Developer (JavaScript)
 * Developed the core conversion algorithms for Length, Weight, and Temperature.
 * Implemented JavaScript event listeners for real-time data processing.
 * Created the "Conversion History" functionality to log user activities.
